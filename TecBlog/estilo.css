@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 236, 236);
+}
+
+a {
+    text-decoration: none;
+}
+
+#cabecalho a:link, #cabecalho a:visited {
+    color: white;
+    padding: 10px 12px;
+    font-weight: bold;
+}
+
+#cabecalho a:hover {
+    color: rgb(255, 197, 36);
+    background-color: white;
+}
+
+#cabecalho {
+    background-color: rgb(255, 197, 36);
+    text-align: center;
+    height: 126px;
+}
+
+#principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#logo {
+    color: white;
+    font-size: 40px;
+    top: 0px;
+    padding: 20px;
+}
+
+.posts {
+    width: 620px;
+    float: left;
+    padding: 20px;
+    background-color: white;
+}
+
+#lateral {
+    background-color: white;
+    width: 230px;
+    float: right;
+    padding: 10px;
+    top: 0px;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #CCC;
+}
+
+.titulo {
+    color: rgb(255, 197, 36);
+}
+
+.data {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.titulo-lateral {
+    background-color: #CCC;
+    color: rgb(59, 59, 59);
+    font-size: 20px;
+    padding: 8px;
+}
+
+.leia-mais {
+    color: rgb(255, 197, 36);
+}
+
+.menu-lateral {
+    color: rgb(255, 197, 36);
+    font-weight: bold;
+    padding: 5px;
+}

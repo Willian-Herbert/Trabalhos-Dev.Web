@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista-vertical a {
+    display: block;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    text-indent: 40px;
+    text-decoration: none;
+    background: #f7b600 url(imagens/vertical/menu.png) left bottom;
+}
+
+.lista-vertical a, .lista-vertical a:visited {
+    color: white;
+    font-weight: bold;
+}
+
+.lista-vertical a:hover, .selecionado-vertical a {
+    background-position: right bottom;
+}
+
+/** Fim da barra vertical **/ 
+
+.lista-horizontal {
+    width: 750px;
+    height: 40px;
+    background: #159cb0 url(imagens/Horizontal/fundo-horizontal.png);
+    float: left;
+}
+
+.lista-horizontal li {
+    float: left;
+    list-style-type: none;
+    background: url(/Imagens/Horizontal/divisor.png) repeat-y left bottom;
+}
+
+.lista-horizontal a {
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 30px;
+    height: 40px;
+}
+
+.lista-horizontal a, .lista-horizontal a:visited {
+    color: white;
+}
+
+.lista-horizontal a:hover, .selecionado-horizontal a {
+    background-color: #44cade;
+    color: #085662;
+}
+
+.clear {
+    clear: both;
+}
+
+/** Fim da barra horizontal **/
+
+.lista-aba li {
+    float: left;
+    list-style-type: none;
+    background: url(Imagens/Abas/aba-direita.png) right top;
+}
+
+.lista-aba a, .lista-aba a:visited {
+    display: block;
+    padding: 20px 30px 30px 30px;
+    background: url(Imagens/Abas/aba-esquerda.png) no-repeat left top;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lista-aba a:hover, .selecionado-aba a {
+    background: url(Imagens/Abas/aba-esquerda-atual.png) no-repeat left top;
+}
+
+.lista-aba li:hover, .lista-aba .selecionado-aba {
+    background: url(Imagens/Abas/aba-direita-atual.png) right top;
+}
+
+/** Fim das abas **/

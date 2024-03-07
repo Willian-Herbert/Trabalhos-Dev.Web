@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    padding: 15px;
+}
+
+#tabela {
+    width: 800px;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: bold;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    padding: 10px;
+    text-align: left;
+    letter-spacing: 0.1em;
+}
+
+td {
+    padding: 7px;
+}
+
+tr:hover {
+    background-color: rgb(86, 235, 173);
+    font-weight: 600;
+}
+
+.cinza {
+    background-color: #efefef;
+}
+
+.numero {
+    text-align: right;
+}
